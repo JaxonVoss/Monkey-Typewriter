@@ -12,7 +12,7 @@ public class Main {
             char tempChar = monkeysGoal.charAt(i);
             int randomInt = tempRandom.nextInt(256);
             if(randomInt != (int)tempChar){
-                i--;
+                i = 0;
             }
             counter++;
         }
