@@ -8,7 +8,7 @@ public class Main {
 
         for(int i = 0; i < monkeysGoal.length(); i++){
             char tempChar = monkeysGoal.charAt(i);
-            int randomInt = tempRandom.nextInt(256);
+            int randomInt = tempRandom.nextInt(128);
             if(randomInt != (int)tempChar){
                 i = 0;
             }
